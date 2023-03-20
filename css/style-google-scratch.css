@@ -26,3 +26,22 @@ body {
 
   line-height: 24px;
 }
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin-top: 40px;
+  margin-right: 10px;
+}
+.general-btn {
+  background: #dfe1e5;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  border: 1px solid #dfe1e5;
+}

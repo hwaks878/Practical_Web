@@ -1,14 +1,14 @@
-.follow-button {
-  color: #0f1419;
-  border: 2px solid #cfd9de;
-  font-size: 30px;
-  font-weight: bold;
-  background: #fff;
-
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 40px;
-  padding-right: 40px;
-
-  border-radius: 35px;
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  /* Added after Flexbox properties for Spacing*/
+  margin-left: 10px;
+  margin-right: 10px;
 }
