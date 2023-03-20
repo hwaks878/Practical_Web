@@ -1,0 +1,14 @@
+.follow-button {
+  color: #0f1419;
+  border: 2px solid #cfd9de;
+  font-size: 30px;
+  font-weight: bold;
+  background: #fff;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  border-radius: 35px;
+}
