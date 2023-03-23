@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 10px;
+  height: 100%;
+}
+.default-position {
+  /* padding: 30px; */
+  border: 8px solid blue;
+  background-color: green;
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+}
+/* Flexbox lesson */
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  /* Make area taller */
+  height: 300px;
+  align-items: center;
+}
+
+.logout {
+  align-self: end;
+  margin-left: auto;
+}
+.home {
+  align-self: flex-start;
+}

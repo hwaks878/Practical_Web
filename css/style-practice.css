@@ -1,14 +1,44 @@
-.nav-wrapper {
-  display: flex;
-  justify-content: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-.item {
-  text-align: center;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 1px solid black;
-  /* Added after Flexbox properties for Spacing*/
-  margin-left: 10px;
-  margin-right: 10px;
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 3rem;
+}
+.hero {
+  background-color: #23424a;
+  color: #fff;
+  padding: 100px 0;
+}
+.hero p {
+  margin-bottom: 3em;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 900px;
+  /* border: 3px solid yellow; */
+}
+.hero-text {
+  width: 60%;
+  /* border: 3px solid red; */
+}
+.btn {
+  display: inline-block;
+  background-color: #38cfd9;
+  border-radius: 100px;
+  padding: 0.25em 2em;
+  font-weight: 700;
+  text-decoration: none;
+  color: #23424a;
+}
+.btn:hover,
+.btn:focus {
+  opacity: 0.5;
 }

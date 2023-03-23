@@ -1,4 +1,5 @@
 # Practical_Web
 
-Refresher on HTML and CSS
-Building simple pages
+1. Refresher on HTML and CSS : Scrimba
+2. Building simple pages
+3. Knowledge
